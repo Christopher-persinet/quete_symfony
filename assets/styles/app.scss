@@ -1,0 +1,8 @@
+// Your variable overrides
+$body-bg: white;
+$body-color: red;
+$light: black;
+$white: white;
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
