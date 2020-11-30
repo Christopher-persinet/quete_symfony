@@ -7,13 +7,13 @@
         {% block stylesheets %}
            {{ encore_entry_link_tags('app') }}
         {% endblock %}
+        <link rel="icon" href="{{ asset('build/planete1.png') }}">
     </head>
     <body>
         {% block header %}
         {% include 'nav.html.twig' %}
         {% endblock %}
         {% block body %}{% endblock %}
-        <img src="{{ asset('build/planete1.png') }}" alt=""/>
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
