@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use App\Entity\Category;
 use App\Repository\ProgramRepository;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -36,7 +37,7 @@ class Program
      * @ORM\ManyToOne(targetEntity=Category::class)
      * @ORM\JoinColumn(nullable=false)
      */
-    private $category;
+    private $Category;
 
     public function getId(): ?int
     {
